@@ -1,0 +1,176 @@
+body {
+  font-family: "Helvetica Neue", "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #985bea; /* Добавляем подчеркивание при наведении курсора мыши на ссылку */
+}
+
+li {
+  list-style: none; /* оформление свойство li отменили */
+}
+
+.logo {
+  color: #2e2f42;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.web {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Studio {
+  color: #4d5ae5;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Portfolio {
+  color: #2e2f42;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Contacts {
+  color: #2e2f42;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  order: 1;
+  flex-grow: 0;
+}
+
+.mail {
+  font-family: "Roboto";
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.phone {
+  font-family: "Roboto";
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.esfyb {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #ffffff;
+  width: 800;
+  height: 300;
+  background: #2e2f42;
+}
+
+.darck-bg {
+  background: #2e2f42;
+}
+
+.os {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: #4d5ae5;
+  color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.spdt {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.obrd {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #434455;
+}
+
+.wawd {
+  font-family: "Roboto";
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.technique-photo {
+  box-sizing: border-box;
+}
+
+.box-sec3 {
+  background: #f4f4fd;
+}
+
+.mark-photo {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px;
+}
+
+.mtcd {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.tom-photo {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px;
+}
+
+.camila-photo {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px;
+}
+
+.Daniel-photo {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px;
+}
+
+.logo1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+}
+.foot-box {
+  background: #2e2f42;
+}
+
+.txt-w {
+  color: #ffffff;
+}
