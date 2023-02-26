@@ -174,3 +174,31 @@ li {
 .txt-w {
   color: #ffffff;
 }
+
+.Portfolio1 {
+  color: #4d5ae5;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Studio1 {
+  color: #2e2f42;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.FilterBtnActive {
+  display: flex;
+  flex-direction: row;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: #4d5ae5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
