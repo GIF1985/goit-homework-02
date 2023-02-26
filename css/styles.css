@@ -21,7 +21,9 @@ li {
   font-size: 18px;
   line-height: 24px;
 }
-
+.remove-italics{
+  font-style: italic;
+}
 .web {
   color: #4d5ae5;
   font-family: "Raleway";
