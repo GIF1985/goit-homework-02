@@ -1,100 +1,40 @@
 body {
-  font-family: "Helvetica Neue", "Roboto", "Verdana", "Tahoma", "Raleway" sans-serif;
-}
-a {
-  text-decoration: none; /* Убираем подчеркивание у ссылок */
-}
-a:hover {
-  text-decoration: underline;
-  text-decoration-color: #985bea; /* Добавляем подчеркивание при наведении курсора мыши на ссылку */
+  background-color: #ffffff;
+  color: #2e2f42;
+  font-family:'Roboto';
+  font-size: 16px;
 }
 
-li {
-  list-style: none; /* оформление свойство li отменили */
+/* лого Веб синий #4D5AE5; */
+/* цвет меню текаста , h2, банеера и подвала #2E2F42; */
+/* цвет h1 белый #FFFFFF;  */
+/* цвет адреса, текста серый, #434455; */
+/*цвет кнопки #4D5AE5; */
+/* в подвале текст #E7E9FC; */
+/* вторичный цвет фона #F4F4FD */
+
+ul {
+  list-style: none; /* оформление свойство ul без класа отменили */
 }
 
 .logo {
-  color: #2e2f42;
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
-}
-.remove-italics{
-  font-style: italic;
-}
-.web {
-  color: #4d5ae5;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.Studio {
-  color: #4d5ae5;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.Portfolio {
-  color: #2e2f42;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.Contacts {
-  color: #2e2f42;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  order: 1;
-  flex-grow: 0;
-}
-
-.mail {
-  font-family: "Roboto";
-  color: #434455;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.phone {
-  font-family: "Roboto";
-  color: #434455;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.esfyb {
-  font-family: "Roboto";
-  font-weight: 700;
-  color: #ffffff;
-  width: 800;
-  height: 300;
-  background: #2e2f42;
-}
-
-.darck-bg {
-  background: #2e2f42;
-}
-
-.os {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background: #4d5ae5;
-  color: #ffffff;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2e2f42;
+}
+.web{
+  color:#4D5AE5 ;
 }
 
+
+/* сделали невидимым текст класа*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -108,58 +48,138 @@ li {
   overflow: hidden;
 }
 
-.spdt {
-  font-family: "Roboto";
-  font-weight: 500;
+.menu-navy {
   color: #2e2f42;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.menu-navy:hover,.menu-navy:focus{
+color:#434455;
+text-decoration: underline;
+text-decoration-color: #4D5AE5; 
+}
+.menu-iris {
+  color: #4D5AE5;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
 }
 
-.obrd {
-  font-family: "Roboto";
+.menu-iris:hover,.menu-iris:focus{
+  color:#4D5AE5;
+  text-decoration: underline;
+  text-decoration-color: #4D5AE5; 
+  }
+
+  .address a{
+
+    color: #434455;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  .hero{
+    background-color: #2e2f42;
+  }
+
+  .hero-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  .hero-button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+  }
+
+.section-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.section-text{
   font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.wawd {
-  font-family: "Roboto";
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #2e2f42;
+.section-heading{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
 }
 
-.technique-photo {
-  box-sizing: border-box;
+.section-laptop{
+  isplay: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 }
 
-.box-sec3 {
-  background: #f4f4fd;
+.section-smartphone{
+  isplay: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
 }
 
-.mark-photo {
+.section-technique{
+  isplay: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.photo-tim {
   background: #ffffff;
   box-shadow: 0px 1px 6px;
 }
 
-.mtcd {
-  font-family: "Roboto";
-  font-weight: 500;
-  color: #2e2f42;
-}
-
-.tom-photo {
-  background: #ffffff;
-  box-shadow: 0px 1px 6px;
-}
-
-.camila-photo {
-  background: #ffffff;
-  box-shadow: 0px 1px 6px;
-}
-
-.Daniel-photo {
-  background: #ffffff;
-  box-shadow: 0px 1px 6px;
-}
 
 .logo1 {
   color: #ffffff;
@@ -168,29 +188,25 @@ li {
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
-}
-.foot-box {
-  background: #2e2f42;
+  text-decoration: none;
 }
 
-.txt-w {
-  color: #ffffff;
+
+.footer{
+  box-sizing: border-box;
+  left: 0px;
+  top: 2280px;
+  background: #2E2F42;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
-.Portfolio1 {
-  color: #4d5ae5;
-  font-family: "Roboto";
-  font-weight: 500;
+.footer-text{
+  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-}
-
-.Studio1 {
-  color: #2e2f42;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
 }
 
 .FilterBtnActive {
