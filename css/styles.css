@@ -1,17 +1,30 @@
+/* цвет меню текаста , h2, банеера и подвала #2E2F42; */
+/* цвет адреса, текста серый, #434455; */
+/* вторичный цвет фона #F4F4FD */
+/* лого Веб и кнопки синий #4D5AE5; */
+/* цвет h1 белый #FFFFFF;  */
+/* в подвале текст #E7E9FC; */
+
+
+
+:root{
+  --primary-text-color:#2e2f42;
+  --title-text-color:#434455;
+  --accent-color:#F4F4FD;
+  --logo-color:#4D5AE5;;
+  --white-color:#FFFFFF;
+  --footer-color:#E7E9FC;
+}
+
+
+
 body {
-  background-color: #ffffff;
-  color: #2e2f42;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
   font-family:'Roboto';
   font-size: 16px;
 }
 
-/* лого Веб синий #4D5AE5; */
-/* цвет меню текаста , h2, банеера и подвала #2E2F42; */
-/* цвет h1 белый #FFFFFF;  */
-/* цвет адреса, текста серый, #434455; */
-/*цвет кнопки #4D5AE5; */
-/* в подвале текст #E7E9FC; */
-/* вторичный цвет фона #F4F4FD */
 
 ul {
   list-style: none; /* оформление свойство ul без класа отменили */
@@ -27,10 +40,10 @@ ul {
   align-items: center;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .web{
-  color:#4D5AE5 ;
+  color:var(--logo-color) ;
 }
 
 
@@ -49,7 +62,7 @@ ul {
 }
 
 .menu-navy {
-  color: #2e2f42;
+  color: var(--primary-text-color);
   font-family: 'Roboto';
   font-weight: 500;
   line-height: 24px;
@@ -60,12 +73,12 @@ ul {
   text-decoration: none;
 }
 .menu-navy:hover,.menu-navy:focus{
-color:#434455;
+color:var(--title-text-color);
 text-decoration: underline;
-text-decoration-color: #4D5AE5; 
+text-decoration-color: var(--logo-color); 
 }
-.menu-iris {
-  color: #4D5AE5;
+.menu-current {
+  color:var(--logo-color);
   font-family: 'Roboto';
   font-weight: 500;
   line-height: 24px;
@@ -76,15 +89,15 @@ text-decoration-color: #4D5AE5;
   text-decoration: none;
 }
 
-.menu-iris:hover,.menu-iris:focus{
-  color:#4D5AE5;
+.menu-current:hover,.current:focus{
+  color:var(--logo-color);
   text-decoration: underline;
-  text-decoration-color: #4D5AE5; 
+  text-decoration-color: var(--logo-color); 
   }
 
   .address a{
 
-    color: #434455;
+    color: var(--title-text-color);
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
@@ -92,11 +105,10 @@ text-decoration-color: #4D5AE5;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
   }
 
   .hero{
-    background-color: #2e2f42;
+    background-color:var(--primary-text-color);
   }
 
   .hero-title{
@@ -107,12 +119,12 @@ text-decoration-color: #4D5AE5;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
   }
 
   .hero-button{
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color:var(--white-color);
+    background-color: var(--logo-color);
     width: 169px;
     height: 56px;
     left: 636px;
@@ -121,7 +133,10 @@ text-decoration-color: #4D5AE5;
     border-radius: 4px;
     margin: 0 auto;
     display: block;
+    border-color:var(--white-color);
   }
+
+
 
 .section-title{
   font-weight: 500;
@@ -137,7 +152,7 @@ text-decoration-color: #4D5AE5;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--title-text-color);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -151,7 +166,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--primary-text-color);
 }
 
 .section-laptop{
@@ -176,13 +191,13 @@ color: #2E2F42;
 }
 
 .photo-tim {
-  background: #ffffff;
+  background:var(--white-color);
   box-shadow: 0px 1px 6px;
 }
 
 
 .logo1 {
-  color: #ffffff;
+  color: var(--white-color);
   text-transform: uppercase;
   font-family: "Raleway";
   font-weight: 800;
@@ -196,7 +211,7 @@ color: #2E2F42;
   box-sizing: border-box;
   left: 0px;
   top: 2280px;
-  background: #2E2F42;
+  background:var(--primary-text-color);
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
@@ -209,14 +224,23 @@ color: #2E2F42;
   color: #E7E9FC;
 }
 
-.FilterBtnActive {
+.button-filter {
   display: flex;
   flex-direction: row;
-  background: #f4f4fd;
+  background:var(--accent-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  color: #4d5ae5;
+  color: var(--logo-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
+  
 }
+
+.button-filter:hover,.button-filter:focus{
+  color:var(--white-color);
+  text-decoration: underline;
+  text-decoration-color: var(--logo-color); 
+  border-color:var(--primary-text-color);
+  background-color:var(--logo-color);
+  }
